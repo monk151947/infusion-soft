@@ -7,8 +7,8 @@ module IS
 
  config = YAML.load_file("config.yaml")
  @key = config["config"]["key"]
- @server = config["config"]["server"]
-
+ server = config["config"]["server"]
+ @server = XMLRPC::Client.new2(server)
  #method for get the data from the table
 
   def self.data_load(table, id, selected_fields)

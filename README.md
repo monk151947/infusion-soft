@@ -1,6 +1,6 @@
 # IS
 
-TODO: Write a gem description
+A Ruby wrapper for Infusionsoft api
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a file in config/config.yml add the key and server
+
+  config:
+	key: "XXXXXXXXXXXXXX"
+	server: "https://yourid.infusionsoft.com:443/api/xmlrpc"
 
 ## Contributing
 
@@ -27,3 +31,4 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
