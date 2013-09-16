@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-#gem "yank"
+gem "yak"
 # Specify your gem's dependencies in IS.gemspec
 gemspec
 
